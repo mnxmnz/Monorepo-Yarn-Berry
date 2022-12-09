@@ -1,4 +1,5 @@
 import { sayHello } from "@workspace/lib";
+import { Button } from "@workspace/ui";
 import Head from "next/head";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
 
       <main>
         <h1>{sayHello()}</h1>
+        <Button>Hello from UI</Button>
       </main>
     </div>
   );

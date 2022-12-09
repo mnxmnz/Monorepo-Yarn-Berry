@@ -13,7 +13,7 @@ export default function Home() {
 
       <main>
         <h1>{sayHello()}</h1>
-        <Button>Hello from UI</Button>
+        <Button variant="contained">Hello from UI</Button>
       </main>
     </div>
   );

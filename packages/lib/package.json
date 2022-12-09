@@ -2,6 +2,7 @@
   "name": "@workspace/lib",
   "packageManager": "yarn@3.3.0",
   "main": "src/index.ts",
+  "typecheck": "tsc --project ./tsconfig.json --noEmit",
   "devDependencies": {
     "typescript": "^4.9.3"
   }

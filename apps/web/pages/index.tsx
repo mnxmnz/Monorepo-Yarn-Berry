@@ -1,5 +1,5 @@
-import Head from "next/head";
 import { sayHello } from "@workspace/lib";
+import Head from "next/head";
 
 export default function Home() {
   return (
